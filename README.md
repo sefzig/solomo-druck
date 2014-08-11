@@ -7,7 +7,7 @@ Nach Ausblenden der Konfiguration kann die Seite gedruckt werden.
 
 ## URL-Parameter
 
-Die Vorlage kann mit URL-Parametern vorausgefüllt/gespeichert werden.
+Die Vorlage kann mit URL-Parametern vorausgefüllt/gespeichert werden:
 
 <pre>
 http://sefzig.net/solomo/druck/
