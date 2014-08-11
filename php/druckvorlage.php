@@ -1,6 +1,6 @@
 <?php
 
-    $url =       $_GET['url'];       $url_url =       $url;       if (!$url)      { $url   = "http://pub.lic.is/daumen/"; } $url_kurzArray = explode("://", $url); if (isset($url_kurzArray["1"])) { $url_kurz = $url_kurzArray["1"]; } else { $url_kurz = $url; }
+    $url =       $_GET['url'];       $url_url =       $url;       if (!$url)      { $url   = "http://sefzig.net/solomo/daumen/"; } $url_kurzArray = explode("://", $url); if (isset($url_kurzArray["1"])) { $url_kurz = $url_kurzArray["1"]; } else { $url_kurz = $url; }
     $prefix =    $_GET['prefix'];    $prefix_url =    $prefix;    if (!$prefix)   { $prefix   = ""; }
     $zahler =    $_GET['zahler'];    $zahler_url =    $zahler;    if (!$zahler)   { $zahler   = "0"; }
     $korrektur = $_GET['korrektur']; $korrektur_url = $korrektur; if ((!$korrektur) && (($korrektur != "L") && ($korrektur != "M") && ($korrektur != "Q") && ($korrektur != "H"))) { $korrektur = "L"; }
