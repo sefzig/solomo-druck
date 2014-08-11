@@ -12,16 +12,16 @@
         <h1>Solomo Aufkleber drucken</h1>
         <!--
         Ein Skript zum Erstellen einer Druckvorlage mit
-        <a href="https://pub.lic.is/wiki/">konfigurierbaren QR-Codes</a>.
+        <a href="https://sefzig.net/wiki/">konfigurierbaren QR-Codes</a>.
         Konfiguriere die Vorlage mit
-        <a href="https://pub.lic.is/wiki/druck.php?korrektur=[L|M|H|Q]&prefix=[DeinVorname|ProjektName]&zahler=[0|9|18|27|...]">diesen URL-Parametern</a>.
+        <a href="https://sefzig.net/solomo/druck/?korrektur=[L|M|H|Q]&prefix=[DeinVorname|ProjektName]&zahler=[0|9|18|27|...]">diesen URL-Parametern</a>.
         <br /><br />
         -->
         <div id="konfiguration" style="display: none;" rel="<?php echo $konfig; ?>">
           <a id="musterlink" href="?zahler=%zahler%&prefix=%prefix%&korrektur=%korrektur%&zeilen=%zeilen%&spalten=%spalten%&template=%template%&konfig=%konfig%&cta=%cta%&url=%url%" title="Musterlink" style="display: none;">Musterlink</a>
           <table width="<?php echo $zeile_breite + 33; ?>" cellspacing="2">
             <tr><td colspan="4" style="padding: 10px; font-style: italic;">Hier kannst Du Druck-Vorlagen für durchnummerierte QR-Aufkleber erstellen.</td></tr>
-            <tr><td>Url         </td><td><input type="text" id="url"       value="<?php echo $url_url;       ?>"></td><td>URL des QR-Codes                         </td><td> http://pub.lic.is/solomo/daumen/ </td></tr>
+            <tr><td>Url         </td><td><input type="text" id="url"       value="<?php echo $url_url;       ?>"></td><td>URL des QR-Codes                         </td><td> http://sefzig.net/solomo/daumen/ </td></tr>
             <tr><td>Cta         </td><td><input type="text" id="cta"       value="<?php echo $cta_url;       ?>"></td><td>Call-to-action des Aufklebers            </td><td> Bewerte diese Arbeit             </td></tr>
             <tr><td>Prefix      </td><td><input type="text" id="prefix"    value="<?php echo $prefix_url;    ?>"></td><td>Individuelles K&uuml;rzel                </td><td> Projektname | Vorname            </td></tr>
             <tr><td>Z&auml;hler </td><td><input type="text" id="zahler"    value="<?php echo $zahler_url;    ?>"></td><td>Start der Nummerierung                   </td><td> 0 | 6 | 12 | ...                 </td></tr>
