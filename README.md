@@ -5,6 +5,16 @@ Druckvorlage für Aufkleber mit durchnummerierten QR Codes.
 URL-Schema, Format und Texte können festgelegt werden.
 Nach Ausblenden der Konfiguration kann die Seite gedruckt werden. 
 
+Readmes
+* [solomo-chat](https://github.com/sefzig/solomo-chat/blob/master/README.md) 
+* [solomo-daumen](https://github.com/sefzig/solomo-daumen/blob/master/README.md) 
+* [solomo-druck](https://github.com/sefzig/solomo-druck/blob/master/README.md) 
+* [<- zurück zu solomo](https://github.com/sefzig/solomo/blob/master/README.md) 
+
+Links
+* [Druckvorlage öffnen](http://sefzig.net/solomo/druck/)
+* [Druckvorlage vorausgefüllt für Solomo-Daumen "gh"](http://sefzig.net/solomo/druck/?zahler=0&prefix=gh&korrektur=L&zeilen=6&spalten=4&template=standard&konfig=0&cta=Bewerte%20dies!&url=http://sefzig.net/solomo/daumen/)
+
 ## URL-Parameter
 
 Die Vorlage kann mit URL-Parametern vorausgefüllt/gespeichert werden:
