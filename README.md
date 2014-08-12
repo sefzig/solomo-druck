@@ -4,9 +4,8 @@ Solomo Aufkleber
 Druckvorlage für Aufkleber mit durchnummerierten QR Codes.
 URL-Schema, Format und Texte können festgelegt werden.
 Nach Ausblenden der Konfiguration kann die Seite gedruckt werden. 
-[<- zurück zu solomo](https://github.com/sefzig/solomo/blob/master/README.md) 
 
-Solomo-Funktionen
+[Solomo-Funktionen](https://github.com/sefzig/solomo/blob/master/README.md) 
 * [solomo-chat](https://github.com/sefzig/solomo-chat/blob/master/README.md) 
 * [solomo-daumen](https://github.com/sefzig/solomo-daumen/blob/master/README.md) 
 * [solomo-druck](https://github.com/sefzig/solomo-druck/blob/master/README.md) 

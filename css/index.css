@@ -1,5 +1,6 @@
-    
- body {
+
+ /* Druckvorlage */
+    body {
       height: 257mm;
       width: 170mm;
       margin: auto;
@@ -7,23 +8,25 @@
       font-family: Arial,sans-serif;
       font-size: 11px;
       color: #000000;
- }
- h1 {
-     font-size: 1.5em;
- }
- table {
-      border: #999999 1px dashed;
- }
- tr td {
-      border-right: #999999 0px dashed;
-      border-bottom: #999999 0px dashed;
- }
- tr:not(:last-child) td {
-      border-bottom: #999999 1px dashed;
- }
- tr td:not(:last-child) {
-      border-right: #999999 1px dashed;
- }
- td { 
-     font-size: 12px;
- }
+    }
+
+ /* Gestaltung */
+    h1 {
+       font-size: 1.5em;
+    }
+    table {
+       border: #999999 1px dashed;
+    }
+    tr td {
+       border-right: #999999 0px dashed;
+       border-bottom: #999999 0px dashed;
+    }
+    tr:not(:last-child) td {
+       border-bottom: #999999 1px dashed;
+    }
+    tr td:not(:last-child) {
+       border-right: #999999 1px dashed;
+    }
+    td { 
+       font-size: 12px;
+    }
