@@ -11,7 +11,7 @@ Die Vorlage kann mit URL-Parametern vorausgefüllt/gespeichert werden:
 
 <pre>
 http://sefzig.net/solomo/druck/
-?zahler=0   // Start der Nummerierung -1, z.B. 0 oder 30
+?zahler=    // Start der Nummerierung -1, z.B. 0 oder 30
 &prefix=    // Wort zwischen URL und Nummerierung, z.B. Projektname
 &korrektur= // Fehlerkorrektur-Level des QR Codes: L | M | H | Q
 &zeilen=    // Menge der gewünschten Zeilen, z.B. 3 oder 6
